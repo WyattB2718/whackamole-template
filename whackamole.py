@@ -26,7 +26,6 @@ def main():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 x, y = event.pos
                 if x in range(0+px,33+px) and y in range (0+py, 33+py):
-                    print("gotcha!")
                     px = random.randrange(0,640, 32)
                     py = random.randrange(0,512, 32)
 
